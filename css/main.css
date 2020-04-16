@@ -1,0 +1,64 @@
+@font-face{
+    font-family: "lobster";
+    src: url(../assets/fonts/Lobster-Regular.ttf);
+}
+@font-face{
+    font-family: "comic";
+    src: url(../assets/fonts/ComicNeue-Regular.ttf);
+}
+@font-face{
+    font-family: "lato";
+    src: url(../assets/fonts/Lato-Light.ttf);
+}
+:root{
+    --purple: rgb(240, 186, 240);
+    --gray: rgb(92, 88, 92);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background:  var(--purple);
+}
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../assets/img/IMG_20181230_163605.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+h1{
+    margin: 0;
+    color: rgb(199, 195, 195);
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "lato";
+    font-weight: 200;
+    text-transform: capitalize;
+}
+h3, h2{
+    font-family: "lato";
+    font-weight: 200;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.row{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.block{
+    background-color: rgba(238, 65, 151, 0.671);
+    display: inline-block;
+    width:26%;
+    height: 33%;
+    padding: 3%;
+    border-style: ridge;
+}
+.pic{
+    display: block;
+    width: 100%;
+}
